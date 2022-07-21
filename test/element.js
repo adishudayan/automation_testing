@@ -21,7 +21,7 @@ describe("interaction with web elements",function(){
 
         it("click on a field",async function(){
             browser.url('https://www.amazon.com/');
-            const icon =await $('input.nav-input');
+            const icon =await $('input.nav-input.nav-progressive-attribute');
             await icon.click();
         })
         
