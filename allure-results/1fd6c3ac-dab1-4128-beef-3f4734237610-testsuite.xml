@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658476992158' stop='1658476998658'>
+    <name>interaction with web elements</name>
+    <title>interaction with web elements</title>
+    <test-cases>
+        <test-case start='1658476992159' status='passed' stop='1658476998656'>
+            <name>get header value</name>
+            <title>get header value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps>
+                <step start='1658476992168' status='passed' stop='1658476998499'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ab5ed733-2b15-446b-8fb5-b9fa58c29c1a-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='7763fd2f-3d54-4ec3-92ed-47f42d2f336c-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1658476992183' status='passed' stop='1658476992250'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='039fbdb7-3c82-4eb1-afd1-e3e27886e5b9-attachment.json' type='application/json' size='42'/>
+                                <attachment title='Response' source='21c07ad3-6501-4a9b-970e-0cd8d934a5e2-attachment.json' type='application/json' size='997'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1658476992267' status='passed' stop='1658476998409'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='4ac1e839-990b-4e64-a261-134bc2722551-attachment.json' type='application/json' size='46'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1658476998508' status='passed' stop='1658476998610'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='06d56bc3-3994-471e-b233-f71e4464ed31-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='7f518af5-c088-447b-98d7-e535ad2470e2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658476998617' status='passed' stop='1658476998653'>
+                    <name>GET /session/:sessionId/element/8b8c339f-4213-4719-a781-1159942f22de/text</name>
+                    <title>GET /session/:sessionId/element/8b8c339f-4213-4719-a781-1159942f22de/text</title>
+                    <attachments>
+                        <attachment title='Response' source='e785a29b-cdd4-435b-afc6-57262d4c1a43-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
